@@ -3637,9 +3637,8 @@
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
+  padding: 2rem;
   background-color: #3E3F3A;
-  text-align: center;
 }
 
  .input-group {
@@ -10702,3 +10701,33 @@
    color: #b9a78a;
  }
  
+ .top-footer{
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .mid-footer{
+   display: flex;
+   justify-content: space-between;
+ }
+
+
+ #col-flex_end{
+  display: flex;
+  justify-content: flex-end;
+ }
+
+ 
+ .margin-bot {
+  margin-bottom: 2rem;
+ }
+
+ footer a {
+   color: lightgrey;
+   margin-bottom: 2rem;
+ }
+ 
+ footer p {
+  color: lightgrey;
+  margin-bottom: 2rem;
+ }
