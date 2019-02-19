@@ -2146,12 +2146,13 @@
  }
  
  .form-group {
-   margin-bottom: 1rem;
+   margin-bottom: 2rem;
  }
  
  .form-text {
    display: block;
    margin-top: 0.25rem;
+   text-align: center;
  }
  
  .form-row {
@@ -10731,3 +10732,53 @@
   color: lightgrey;
   margin-bottom: 2rem;
  }
+
+ form {
+  margin:auto;
+  margin-top:3rem;
+ }
+
+ form h2 {
+  padding-bottom: 1.5rem;
+ }
+
+ .big-banner {
+   width:100%;
+   background:url("banner-eventbrite.jpg") 30% 60% no-repeat;
+   background-size: auto;
+   min-height:20rem;
+   position:relative;
+
+ }
+
+ .big-banner .title {
+  font-size: 5rem;
+  color: white;
+  padding-top: 20px;
+
+ }
+ .big-banner .description {
+  font-size: 2rem;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 25px;
+ }
+
+ .big-banner .buttons {
+  margin-left:20px;
+ }
+
+ .little-banner {
+  width:100%;
+  background:url("concert-336695_1280.jpg") 80% 20% no-repeat;
+  background-size: auto;
+  min-height:8rem;
+  position:relative;
+}
+
+.little-banner .title {
+ font-size: 3rem;
+ color: #3E3F3A;
+ padding-top: 20px;
+
+}
