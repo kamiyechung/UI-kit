@@ -10923,10 +10923,18 @@ text-align: right;
     margin-bottom: 5rem;
    
   }
-  /* .presentation-cont {
-    width: 100%;
+  .logo-organism {
+    height: 80px;
+    width: 150px;
+    margin-bottom: 1rem;
+  }
+  .container-logo {
+    width: 60%;
     padding-right: 5rem; 
     padding-left: 5rem; 
     margin-right: auto;
     margin-left: auto;
-  } */
+    border: 1px solid var(--primary);
+    border-top-color: 1px;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.2);
+  }
