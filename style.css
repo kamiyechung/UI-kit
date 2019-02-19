@@ -10903,3 +10903,30 @@ text-align: right;
     justify-content:flex-end;
     padding-top:10px
   }
+
+  .side-picture {
+    padding-top: 6rem;
+
+    color: #6c7686;
+    font-size: 1.125rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+  .side-picture button {
+    border: none;
+    border-bottom: 2px solid;
+    font-size: 0.rem;
+    
+  }
+  .side-text {
+    height: 400px;
+    margin-bottom: 5rem;
+   
+  }
+  /* .presentation-cont {
+    width: 100%;
+    padding-right: 5rem; 
+    padding-left: 5rem; 
+    margin-right: auto;
+    margin-left: auto;
+  } */
