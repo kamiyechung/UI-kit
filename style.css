@@ -4863,7 +4863,7 @@
    color: #fff;
  }
  
- .card {
+ /* .card {
    position: relative;
    display: -webkit-box;
    display: -ms-flexbox;
@@ -4876,9 +4876,24 @@
    word-wrap: break-word;
    background-color: #fff;
    background-clip: border-box;
-   border: 1px solid rgba(223, 215, 202, 0.75);
+   border: 1px solid rgba(10, 10, 9, 0.75);
    border-radius: 0.25rem;
- }
+ } */
+
+ .card{
+  box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.2);
+  width: 20rem;
+  border: 1px groove var(--primary) ;
+  border-radius: .1875rem;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  background-color: white;
+  background-clip: border-box;
+  box-sizing: border-box;
+  min-width: 0;
+  padding: 1.25rem;
+}
  
  .card > hr {
    margin-right: 0;
@@ -4899,7 +4914,7 @@
    -webkit-box-flex: 1;
        -ms-flex: 1 1 auto;
            flex: 1 1 auto;
-   padding: 1.25rem;
+   /* padding: 1.25rem; */
  }
  
  .card-title {
@@ -4939,9 +4954,9 @@
  }
  
  .card-footer {
-   padding: 0.75rem 1.25rem;
+
    background-color: rgba(248, 245, 240, 0.25);
-   border-top: 1px solid rgba(223, 215, 202, 0.75);
+   /* border-top: 1px solid rgba(223, 215, 202, 0.75); */
  }
  
  .card-footer:last-child {
@@ -4969,10 +4984,18 @@
    padding: 1.25rem;
  }
  
- .card-img {
+ /* .card-img {
    width: 100%;
    border-radius: calc(0.25rem - 1px);
- }
+ } */
+
+ .card-img{
+   width: 100%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  padding-bottom: 1.25rem;
+}
+
  
  .card-img-top {
    width: 100%;
@@ -10523,6 +10546,7 @@
    }
    body {
      min-width: 992px !important;
+     padding-left: 100px;
    }
    .container {
      min-width: 992px !important;
@@ -10781,4 +10805,55 @@
  color: #3E3F3A;
  padding-top: 20px;
 
+}
+
+.left-side{
+  display: flex;
+  justify-content: flex-start;
+  width: 10%;
+}
+
+.right-side{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 60%;
+}
+
+.card-user{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.attendant-card{
+  box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.2);
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+  margin: auto;
+  margin-bottom: 40px;
+  width: 40%;
+  padding: 30px;
+}
+
+.town-card{
+  box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.2);
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 40px;
+ min-width: auto;
+  padding: 30px;
+}
+
+.town-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
